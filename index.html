@@ -10,11 +10,23 @@
       h1   { color: #1F4E79; }
       h2   { color: #2E75B6; border-bottom: 2px solid #2E75B6; }
       p    { line-height: 1.6; }
+      
+      /* New CSS to style your photo */
+      .profile-photo {
+        display: block;
+        max-width: 250px; /* Restricts the image size */
+        height: auto;     /* Maintains original photo proportions */
+        border-radius: 8px; /* Gently rounds the photo corners */
+        margin: 20px 0;   /* Adds spacing above and below the image */
+      }
     </style>
   </head>
   <body>
     <h1>Hi, I'm Alexandra!</h1>
  
+    <!-- Photo Tag Added Here -->
+    <img src="AlexaCha/my-first-site/IMG_5069.jpeg" alt="Alexandra's profile picture" class="profile-photo">
+
     <h2>About Me</h2>
     <p>I am a teacher at the Energy Tech High School</p>
  
@@ -30,3 +42,4 @@
     </p>
   </body>
 </html>
+
